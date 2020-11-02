@@ -15,6 +15,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar .w3-button {
   padding: 16px;
 }
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+}
+.responsive1 {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+}
+
+  
 .dropdown {
   float: left;
   overflow: hidden;
@@ -62,19 +76,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <body>
   <div class="w3-top">
     <div class="w3-bar w3-black w3-card" id="myNavbar">
-      <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Switch2Pay.png" width=100 height=100></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Switch2Pay1.png" width=40 height=20></a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
         <a href="index.html#about" class="w3-bar-item w3-button">ABOUT US</a>
         <div class="dropdown">
-          <a href="services.html" class="w3-bar-item w3-button dropbtn">SERVICES 
+          <a href="#" class="w3-bar-item w3-button dropbtn">SERVICES 
             <i class="fa fa-user"></i>
           </a>
           <div class="dropdown-content inline-block">
-            <a href="services.html#gift">Gift card solutions</a>
-            <a href="services.html#vendor">Vendor payment</a>
-            <a href="services.html#receive">Account receivables</a>
-            <a href="services.html#pay">Account payables</a>
+            <a href="#gift">Gift card solutions</a>
+            <a href="#vendor">Vendor payment</a>
+            <a href="#receive">Account receivables</a>
+            <a href="#pay">Account payables</a>
           </div>
         </div> 
         <div class="dropdown">
@@ -167,68 +181,56 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1><B>Vendor payment</B></h1> <br>
 
       <p class="w3-text-grey">Payments can be confusing. We’re here to help.
-
-        ​
-        
-        Most consumers never give them a second thought, or even a first. Though they work behind the scenes, payment service providers represent essential links in the global financial chain.
-        
-        ​
-        
+Most consumers never give them a second thought, or even a first. Though they work behind the scenes, payment service providers represent essential links in the global financial chain.
         Payment service providers connect merchants to the broader financial system so they can accept credit and debit card payments from customers. Payment service providers connect merchants, consumers, card brand networks and financial institutions.
-        
-        ​
-        
         Payment service providers – PSPs – are third parties that help merchants accept payments. Simply put, payment service providers enable merchants to accept credit/debit payments as well as Direct Debit, bank transfer, real-time bank transfer, etc. by connecting them to the broader financial world. They provide both a merchant account and a payment gateway, ensuring that businesses can collect and manage their payments in a simple and efficient way.
-        
-        ​
-        
         Payment service providers bring all financial parties together to deliver a simple payment experience for merchants and their customers by processing payments quickly and efficiently. Invisible to most but essential to all, payment service providers make modern commerce possible.</p>
     </div>
   </div>
 </div>
 <div class="w3-row-padding w3-padding-64 w3-pale-red w3-container" id="receive">
-    <div class="w3-content">
+  <div class="w3-content"><h1><B>Account receivables</B></h1> <br>
+    
+      
+      <h5><B>Credit and Debit Cards</B></h5>
       <div class="w3-twothird">
-        <h1><B>Account receivables</B></h1>
-        <h5 class="w3-padding-32"><B>Credit and Debit Cards</B></h5>
-    <p class="w3-text-grey"> <br>
-          Accept payments from all major credit and debit card networks like Visa, Mastercard, American Express and RuPay. 
-          With SwitchToPay,  your customers can save their card details and use them for future payments.</p>
-      </div>
-  <div class="w3-third w3-center">
-       <img src="image.png" width=500 height=300> 
-      </div>
+  <p class="w3-text-grey"> 
+        Accept payments from all major credit and debit card networks like Visa, Mastercard, American Express and RuPay. 
+        With SwitchToPay,  your customers can save their card details and use them for future payments.</p>
     </div>
-   
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <img src="net.png">
-      </div>
-   <div class="w3-third w3-center">
-        <h5 class="w3-padding-32"><B>50+ Netbanking Options</B></h5>
-   <p class="w3-text-grey"> <br>
-          Accept payments through 50+ banks including SBI, ICICI Bank, HDFC Bank, Axis Bank, Kotak Bank and Yes Bank. 
-          The bank page opens in a pop-up window so your customers can easily come back to your website, ensuring a great experience.</p>
-      </div>
+<div class="w3-third w3-center">
+     <img src="image.png" class="responsive">  <br><br><br><br>
     </div>
-
- 
   </div>
+ 
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <img src="net.png" class="responsive"> 
+    </div>
+ <div class="w3-third">
+      <h5><B>50+ Netbanking Options</B></h5>
+ <p class="w3-text-grey">
+        Accept payments through 50+ banks including SBI, ICICI Bank, HDFC Bank, Axis Bank, Kotak Bank and Yes Bank. 
+        The bank page opens in a pop-up window so your customers can easily come back to your website, ensuring a great experience.</p>
+    </div>
+  </div>
+
+
+</div>
   
   <!-- Second Grid -->
   <div class="w3-row-padding w3-sand w3-padding-64 w3-container" id="pay">
     <div class="w3-content">
       <h1 style="margin-left: 40%;"><B>Account payables</B></h1><br><br>
-      <div class="w3-twothird">
-        
-       
-        <img src="flow.png" width=1000 height=500>
-      </div>
+      
+        <img src="flow.png" class="responsive1">
+      
     </div>
   </div>
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">We serve the best</h1>
 </div>
+
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
