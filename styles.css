@@ -1,0 +1,4 @@
+.but {
+  @import url("./bootstrap.min.css");
+  width: 1000px;
+}
