@@ -48,8 +48,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 .dropdown-content {
-  display: none;
-  position: absolute;
+  display:none;
+  position:absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -57,7 +57,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 }
 
 .dropdown-content a {
-  float: none;
+  float:inline-end;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -75,16 +75,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body>
   <div class="w3-top">
-    <div class="w3-bar w3-black w3-card" id="myNavbar">
+    <div class="w3-bar w3-black" id="myNavbar">
       <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Switch2Pay1.png" width=40 height=20></a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
         <a href="index.html#about" class="w3-bar-item w3-button">ABOUT US</a>
         <div class="dropdown">
-          <a href="#" class="w3-bar-item w3-button dropbtn">SERVICES 
+          <a href="#" class="w3-bar-item w3-button dropbtn"  >SERVICES 
             <i class="fa fa-user"></i>
           </a>
-          <div class="dropdown-content inline-block">
+          <div class="dropdown-content">
             <a href="#gift">Gift card solutions</a>
             <a href="#vendor">Vendor payment</a>
             <a href="#receive">Account receivables</a>
@@ -199,13 +199,13 @@ Most consumers never give them a second thought, or even a first. Though they wo
         With SwitchToPay,  your customers can save their card details and use them for future payments.</p>
     </div>
 <div class="w3-half w3-center">
-     <img src="image.png" class="responsive">  <br><br><br><br>
+     <img src="image.png" class="responsive">  <br><br>
     </div>
   </div>
  
   <div class="w3-content">
     <div class="w3-half">
-      <img src="net.png" class="responsive"> 
+      <img src="net.png" class="responsive"> <br><br>
     </div>
  <div class="w3-half">
       <h5><B>50+ Netbanking Options</B></h5>
@@ -221,7 +221,8 @@ Most consumers never give them a second thought, or even a first. Though they wo
   <!-- Second Grid -->
   <div class="w3-row-padding w3-sand w3-padding-64 w3-container" id="pay">
     <div class="w3-content">
-      <h1 style="margin-left: 40%;"><B>Account payables</B></h1><br><br>
+      <div class="w3-third">&nbsp;</div>
+      <h1 style="w3-twothird"><B>Account payables</B></h1><br><br>
       
         <img src="flow.png" class="responsive1">
       
